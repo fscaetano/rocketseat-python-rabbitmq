@@ -1,6 +1,15 @@
 # rocketseat-python-rabbitmq
 Project for following the lessons about RabbitMQ integration on Python
 
+# dotenv:
+
+Execute: 
+`cp .env-example .env`
+
+Go to BotFather telegram bot and get the bot token, update the token on .env file.
+
+Go to [[https://api.telegram.org/bot<TOKEN>/getUpdates]], then add the bot to a channel and use the chat_id to update the field on .env file.
+
 ## Starting rabbitmq_management
 `sudo rabbitmq-plugins enable rabbitmq_management`
 
