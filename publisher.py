@@ -34,4 +34,4 @@ class RabbitMQPublisher:
         )
 
 rabbitmq_publisher = RabbitMQPublisher()
-rabbitmq_publisher.send_message({"messaage":"hello from the publisher"})
+rabbitmq_publisher.send_message({"msg":"hello from the publisher"})
